@@ -6,3 +6,9 @@ Notes/
 
 #Access keys
 Keys/
+
+#Prevent constant updating of raw data
+"Consultation transcript"/
+
+%Cache
+__pycache__/
