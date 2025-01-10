@@ -2,7 +2,7 @@ import boto3
 from urllib.parse import urlparse
 import json
 import time
-from Boto3test import get_transcription_result
+from Transcribe_Retrieve import get_transcription_result
 
 # Initialize the Transcribe client
 transcribe_client = boto3.client('transcribe')
