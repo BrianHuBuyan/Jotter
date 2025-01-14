@@ -62,8 +62,8 @@ def get_transcription_result(file_name):
 
 def main():
     # Configuration
-    job_name = "Retrieval_test4"
-    media_uri = "s3://jotter-test-bucket/CAR0002-Trimmed.mp3"  # Update with S3 URI
+    job_name = "Spedup_1.2_sil_removed"
+    media_uri = "s3://jotter-test-bucket/CAR0001_sil_removed_120.mp3"  # Update with S3 URI
     output_bucket_name = "jotter-test-bucket"  # Update with S3 bucket name
     specialty = "PRIMARYCARE"
     language_code = "en-US"

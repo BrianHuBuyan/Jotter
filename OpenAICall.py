@@ -26,7 +26,7 @@ stream = client.chat.completions.create(
 
 
 with open(f"Output/{filename}GPT.txt","w") as file:
-    file.write(f"Input Prompt: {input_prompt} +\n")
+    file.write(f"Input Prompt: {input_prompt} \n\n\n")
     file.write("GPT Response: \n")
     for chunk in stream:
         if chunk.choices[0].delta.content is not None:

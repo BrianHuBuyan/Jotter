@@ -10,5 +10,8 @@ Keys/
 #Prevent constant updating of raw data
 "Consultation transcript"/
 
-%Cache
+#Cache
 __pycache__/
+
+#mp3 files
+*.mp3
