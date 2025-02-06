@@ -26,5 +26,5 @@ def upload_file(file_name, bucket, object_name=None):
         return False
     return True
 
-upload_file("CAR0001_sil_removed_120.mp3", "jotter-test-bucket")
+upload_file("Consultation transcript\\Data\\Audio Recordings\\MSK0046.mp3", "jotter-test-bucket", "MSK0046.mp3")
 
